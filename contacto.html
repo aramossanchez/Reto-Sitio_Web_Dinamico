@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Armando's Site - Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div>
+            <span>
+                <p>Hi! I'm Armando ;)</p>
+            </span>
+            <span class="abajo">
+                <p>Welcome to my personal site!</p>
+            </span>
+            <span>
+                <p>You are free to browse everything you want on my page :)</p>
+            </span>
+            <span class="abajo">
+                <p>And don't forget contact to me if you want!</p>
+            </span>
+        </div>
+        <ul>
+            <li><a href="./index.html">Inicio</a></li>
+            <li><a href="./perfil.html">Perfil</a></li>
+            <li class="actual">Contacto</li>
+        </ul>
+    </header>
+    <section id="contact">
+        <span>¡Aquí puedes contactar conmigo!</span>
+        
+        <form action="">
+        <!--<form action="mailto:armandoramossanchez@gmail.com" method="post" enctype="text/plain">--> <!--EN DESARROLLO-->
+            <span>Contacto</span>
+            <br><br><br>
+            <p>Deja tu nombre, tu correo y un comentario o sugerencia, ¡y contactaré contigo a la mayor brevedad posible!</p>
+        <p>(actualmente desactivado mientras redacto el texto legal)</p>
+            <div id="contenedor-formulario">
+                <div class="seccion-formulario">
+                    <label for="nombre">Nombre: </label><input type="text" name="Nombre" id="nombre" placeholder="Nombre">
+                </div>
+                <div class="seccion-formulario">
+                    <label for="correo">Correo: </label><input type="text" name="Correo" id="correo" placeholder="Correo">
+                </div>
+                <div class="seccion-formulario">
+                    <label for="comentario">Comenta lo que quieras: </label>
+                    <br>
+                    <textarea name="Comentario" id="comentario" placeholder="Escribe aquí tu comentario"></textarea>
+                </div>
+                <div class="seccion-formulario" id="botones">
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Borrar datos">
+                </div>
+            </div>
+        </form>
+    </section>
+    <footer>
+        <div>
+            <a href="https://www.linkedin.com/in/armando-ramos-s%C3%A1nchez-0b678b102/?originalSubdomain=es"><img src="./img/linkedin.png" alt="linkedin"></a>
+            <a href="https://www.instagram.com/armandohyeah/"><img src="./img/instagram.png" alt="instagram"></a>
+            <a href="https://twitter.com/armandohyeah?lang=es"><img src="./img/twitter.png" alt="twitter"></a>
+        </div>
+        <div>
+            Copyright © Armando Ramos Sánchez 2020
+        </div>
+    </footer>
+</body>
+</html>
