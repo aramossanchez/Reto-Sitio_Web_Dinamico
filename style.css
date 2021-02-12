@@ -223,7 +223,7 @@ header ul ul{
 }
 
 #home div [alt=corazon]:hover{
-    scale: 8;
+    transform: scale(8)
 }
 
 #conocerme{
@@ -573,7 +573,7 @@ aside ul li{
 }
 
 aside ul li:hover{
-    scale: 1.5;
+    transform: scale(1.5);
     cursor: default;
 }
 
@@ -616,7 +616,7 @@ aside span{
 
 #profile-personal div img[alt="personal-perfil"]:hover{
     filter:blur(0);
-    scale:2;
+    transform: scale(2);
 }
 
 #profile-personal span{
@@ -677,7 +677,7 @@ aside span{
 }
 
 #profile-personal nav img[alt="emoticono"]:hover{
-    scale: 3;
+    transform: scale(3);
 }
 
 #profile-personal nav img[alt="corazon-deporte"]{
@@ -686,7 +686,7 @@ aside span{
 }
 
 #profile-personal nav img[alt="corazon-deporte"]:hover{
-    scale: 3;
+    transform: scale(3);
 }
 
 
@@ -699,7 +699,7 @@ aside span{
 }
 
 #profile-personal #personal img:hover{
-    scale: 2;
+    transform: scale(2);
 }
 
 #profile-personal #deporte img{
@@ -710,7 +710,7 @@ aside span{
 }
 
 #profile-personal #deporte img:hover{
-    scale: 2;
+    transform: scale(2);
 }
 
 #profile-personal #deporte img[alt="corazon-roto"]{
@@ -721,7 +721,7 @@ aside span{
 }
 
 #profile-personal #deporte img[alt="corazon-roto"]:hover{
-    scale: 3;
+    transform: scale(3);
 }
 
 #profile-personal #deporte img[alt="corazon-deporte"]{
@@ -732,7 +732,7 @@ aside span{
 }
 
 #profile-personal #deporte img[alt="corazon-deporte"]:hover{
-    scale: 3;
+    transform: scale(3);
 }
 
 #profile-personal #videojuegos img{
@@ -742,7 +742,7 @@ aside span{
 }
 
 #profile-personal #videojuegos img:hover{
-    scale: 2;
+    transform: scale(2);
 }
 
 #profile-personal #videojuegos img[alt="mando"]{
@@ -753,7 +753,7 @@ aside span{
 }
 
 #profile-personal #videojuegos img[alt="mando"]:hover{
-    scale: 3;
+    transform: scale(3);
 }
 
 #profile-personal #videojuegos img[alt="pcmasterrace"]{
@@ -764,7 +764,7 @@ aside span{
 }
 
 #profile-personal #videojuegos img[alt="pcmasterrace"]:hover{
-    scale: 20;
+    transform: scale(20);
 }
 
 /***************************************************************************************************************************************************/
@@ -911,7 +911,7 @@ footer img{
 }
 
 footer img:hover{
-    scale: 1.5;
+    transform: scale(1.5);
 }
 
 .actual{
